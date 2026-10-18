@@ -8,6 +8,7 @@ public class Main {
         c2.showStats(500);
         c3.showStats(400);
 
+        System.out.println("University-wide enrolment statistics");
         System.out.println("Total Student : " + Course.totalStudents);
 
     }
