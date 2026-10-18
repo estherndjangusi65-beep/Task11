@@ -15,5 +15,6 @@ public class Course {
         System.out.println("Course Name  : " + courseName);
         System.out.println("Students     : " + registeredStudents);
         System.out.println("Pass % : " + passPercentage);
+        System.out.println();
     }
 }
