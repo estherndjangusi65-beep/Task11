@@ -9,7 +9,7 @@ public class Main {
         c3.showStats(400);
 
         System.out.println("University-wide enrolment statistics");
-        System.out.println("Total Student : " + Course.totalStudents);
+        System.out.println("Total Registered Student : " + Course.totalStudents);
 
     }
 }
