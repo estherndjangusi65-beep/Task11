@@ -10,7 +10,7 @@ public class Course {
     }
 
     void showStats(int passed){
-       double passPercentage= passed * 100.0 / registeredStudents;
+       double passPercentage= (passed / (double) registeredStudents) * 100;
 
         System.out.println("Course : " + courseName);
         System.out.println("Registered Students     : " + registeredStudents);
